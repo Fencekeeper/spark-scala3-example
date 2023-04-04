@@ -4,4 +4,4 @@
 mkdir -p ./spark-apps
 
 # Start a master node and 2 workers
-docker compose up -d --scale spark-worker=2
+docker-compose up -d --scale spark-worker=2
